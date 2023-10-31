@@ -1,0 +1,7 @@
+(library
+ (name uint63)
+ (synopsis "The Coq uint63 library")
+ (public_name coq-uint63.uint63)
+ (flags :standard -w -27-50)
+ (modules_without_implementation cSig)
+ (modules (:standard)))
