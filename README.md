@@ -1,5 +1,4 @@
-# Coq uint63
+# Coq Primitive
 
-The uint63 module from [Coq](https://coq.inria.fr), packaged
-as a separate OCaml library. This can be useful for Coq projects
-using extraction to OCaml.
+This library provides OCaml modules for primitive objects in Coq.
+These modules can be used in Coq-based projects that rely on extraction to OCaml.
