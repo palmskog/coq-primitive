@@ -25,3 +25,8 @@
  (public_name coq-primitive.parray)
  (libraries uint63)
  (modules parray))
+
+(rule
+ (targets uint63.ml)
+ (deps (:gen-file uint63_%{ocaml-config:int_size}.ml))
+ (action (copy# %{gen-file} %{targets})))
