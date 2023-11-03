@@ -1,4 +1,3 @@
-# 1 "kernel/float64_63.ml"
 (************************************************************************)
 (*         *   The Coq Proof Assistant / The Coq Development Team       *)
 (*  v      *         Copyright INRIA, CNRS and contributors             *)
