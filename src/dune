@@ -15,4 +15,7 @@
  (public_name coq-uint63.float64)
  (flags :standard -w -27-50)
  (libraries uint63)
- (modules float64 float64_common))
+ (modules float64 float64_common)
+ (foreign_stubs
+  (language c)
+  (names coq_float64)))
