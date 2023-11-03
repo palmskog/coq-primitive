@@ -1,7 +1,7 @@
 (library
  (name uint63)
  (synopsis "Coq's uint63 OCaml library")
- (public_name coq-uint63.uint63)
+ (public_name coq-primitive.uint63)
  (flags :standard -w -27-50)
  (modules_without_implementation cSig)
  (modules cMap cSig int uint63)
@@ -12,7 +12,7 @@
 (library
  (name float64)
  (synopsis "Coq's float64 OCaml library")
- (public_name coq-uint63.float64)
+ (public_name coq-primitive.float64)
  (libraries uint63)
  (modules float64 float64_common)
  (foreign_stubs
@@ -22,6 +22,6 @@
 (library
  (name parray)
  (synopsis "Coq's parray OCaml library")
- (public_name coq-uint63.parray)
+ (public_name coq-primitive.parray)
  (libraries uint63)
  (modules parray))
