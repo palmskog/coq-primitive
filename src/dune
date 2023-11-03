@@ -4,7 +4,10 @@
  (public_name coq-uint63.uint63)
  (flags :standard -w -27-50)
  (modules_without_implementation cSig)
- (modules cMap cSig int uint63))
+ (modules cMap cSig int uint63)
+ (foreign_stubs
+  (language c)
+  (names coq_uint63_native)))
 
 (library
  (name float64)
