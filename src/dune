@@ -4,4 +4,12 @@
  (public_name coq-uint63.uint63)
  (flags :standard -w -27-50)
  (modules_without_implementation cSig)
- (modules (:standard)))
+ (modules cMap cSig int uint63))
+
+(library
+ (name float64)
+ (synopsis "The Coq float64 library")
+ (public_name coq-uint63.float64)
+ (flags :standard -w -27-50)
+ (libraries uint63)
+ (modules float64 float64_common))
