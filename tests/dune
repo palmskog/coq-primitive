@@ -1,0 +1,10 @@
+(executable
+ (name axioms)
+ (public_name axioms)
+ (libraries coq-primitive.uint63 coq-primitive.float64)
+ (modules axioms)
+ (flags :standard -w -27))
+
+(rule
+ (alias runtest)
+ (action (run %{bin:axioms})))
